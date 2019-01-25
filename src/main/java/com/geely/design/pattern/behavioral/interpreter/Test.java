@@ -1,10 +1,11 @@
-package com.geely.design.pattern.behavioral.interpreter;
+package com.geekerstar.design.pattern.behavioral.interpreter;
+
 
 public class Test {
     public static void main(String[] args) {
-        String inputString = "6 100 11 + *";
-        StackExpressionParser expressionParser = new StackExpressionParser();
-        int result = expressionParser.parse(inputString);
-        System.out.println("解释器计算结果：" + result);
+        String geelyInputStr="6 100 11 + *";
+        GeelyExpressionParser expressionParser=new GeelyExpressionParser();
+        int result=expressionParser.parse(geelyInputStr);
+        System.out.println("解释器计算结果: "+result);
     }
 }

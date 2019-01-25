@@ -1,21 +1,18 @@
-package com.geely.design.pattern.behavioral.interpreter;
+package com.geekerstar.design.pattern.behavioral.interpreter;
+
 
 public class AddInterpreter implements Interpreter {
-
-    private Interpreter firseExpression, secondExpression;
-
-    public AddInterpreter(Interpreter firseExpression, Interpreter secondExpression) {
-        this.firseExpression = firseExpression;
-        this.secondExpression = secondExpression;
+    private Interpreter firstExpression,secondExpression;
+    public AddInterpreter(Interpreter firstExpression, Interpreter secondExpression){
+        this.firstExpression=firstExpression;
+        this.secondExpression=secondExpression;
     }
-
     @Override
-    public int interpret() {
-        return this.firseExpression.interpret() + this.secondExpression.interpret();
+    public int interpret(){
+        return this.firstExpression.interpret()+this.secondExpression.interpret();
     }
-
     @Override
-    public String toString() {
+    public String toString(){
         return "+";
     }
 }

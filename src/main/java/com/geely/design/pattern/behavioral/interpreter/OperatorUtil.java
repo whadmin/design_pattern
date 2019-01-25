@@ -1,10 +1,12 @@
-package com.geely.design.pattern.behavioral.interpreter;
+package com.geekerstar.design.pattern.behavioral.interpreter;
+
 
 public class OperatorUtil {
-
     public static boolean isOperator(String symbol) {
-        return symbol.equals("+") || symbol.equals("*");
+        return (symbol.equals("+") || symbol.equals("*"));
+
     }
+
 
 
     public static Interpreter getExpressionObject(Interpreter firstExpression, Interpreter secondExpression, String symbol) {
