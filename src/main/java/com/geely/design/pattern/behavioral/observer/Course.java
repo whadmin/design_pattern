@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.observer;
+package com.geely.design.pattern.behavioral.observer;
 
 import java.util.Observable;
 

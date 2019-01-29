@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.chainofresponsibility;
+package com.geely.design.pattern.behavioral.chainofresponsibility;
 
 import org.apache.commons.lang.StringUtils;
 

@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.templatemethod;
+package com.geely.design.pattern.behavioral.templatemethod;
 
 
 public abstract class ACourse {

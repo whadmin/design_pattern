@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.observer.guavatest;
+package com.geely.design.pattern.behavioral.observer.guavatest;
 
 import com.google.common.eventbus.Subscribe;
 

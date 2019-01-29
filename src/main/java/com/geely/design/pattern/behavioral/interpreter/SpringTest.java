@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.interpreter;
+package com.geely.design.pattern.behavioral.interpreter;
 
 import org.springframework.expression.Expression;
 import org.springframework.expression.spel.standard.SpelExpressionParser;

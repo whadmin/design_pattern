@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.memento;
+package com.geely.design.pattern.behavioral.memento;
 
 
 public class Test {
@@ -6,14 +6,14 @@ public class Test {
     public static void main(String[] args) {
         ArticleMementoManager articleMementoManager = new ArticleMementoManager();
 
-        Article article= new Article("设计模式A","手记内容A","手记图片A");
+        Article article = new Article("设计模式A", "手记内容A", "手记图片A");
 
         ArticleMemento articleMemento = article.saveToMemento();
 
         articleMementoManager.addMemento(articleMemento);
-        System.out.println("标题:"+article.getTitle()+" 内容:"+article.getContent()+" 图片:"+article.getImgs()+" 暂存成功");
+        System.out.println("标题:" + article.getTitle() + " 内容:" + article.getContent() + " 图片:" + article.getImgs() + " 暂存成功");
 
-        System.out.println("手记完整信息:"+article);
+        System.out.println("手记完整信息:" + article);
 
 
         System.out.println("修改手记start");
@@ -24,11 +24,10 @@ public class Test {
 
         System.out.println("修改手记end");
 
-        System.out.println("手记完整信息:"+article);
+        System.out.println("手记完整信息:" + article);
 
         articleMemento = article.saveToMemento();
         articleMementoManager.addMemento(articleMemento);
-
 
 
         article.setTitle("设计模式C");
@@ -45,10 +44,8 @@ public class Test {
         articleMemento = articleMementoManager.getMemento();
         article.undoFromMemento(articleMemento);
 
-
-
         System.out.println("暂存回退end");
-        System.out.println("手记完整信息:"+article);
+        System.out.println("手记完整信息:" + article);
 
     }
 }

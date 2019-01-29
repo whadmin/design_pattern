@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.mediator;
+package com.geely.design.pattern.behavioral.mediator;
 
 
 public class User {

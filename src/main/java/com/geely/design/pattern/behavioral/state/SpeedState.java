@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.state;
+package com.geely.design.pattern.behavioral.state;
 
 
 public class SpeedState extends CourseVideoState {

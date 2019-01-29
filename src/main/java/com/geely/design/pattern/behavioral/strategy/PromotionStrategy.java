@@ -1,4 +1,4 @@
-package com.geekerstar.design.pattern.behavioral.strategy;
+package com.geely.design.pattern.behavioral.strategy;
 
 
 public interface PromotionStrategy {
